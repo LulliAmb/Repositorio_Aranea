@@ -1,0 +1,701 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+    display: grid;
+    grid-template-rows: 0.5fr
+}   
+
+
+header{  
+    background-image: url(photos/backimg.jpg);
+    background-size: cover;
+    font-family:'Kurale', serif ;
+    color: black;
+    text-align: center;
+    font-size: 18px    
+}
+
+header img {
+    width: 35vw;
+    margin:3%;
+    margin-bottom: 0;   
+    position:relative;  
+}
+
+
+header h1 {
+    font-size: 28px;
+    margin: 0px;
+    padding-bottom: 12px;    
+}
+
+
+#menu ul {
+    list-style-type: none;
+    width: 10%;
+    display: inline-flex;
+    justify-content: center;
+    margin-bottom: 1%;
+}
+
+
+#menu a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;   
+}    
+
+#side-menu {
+    font-family:'Kurale', serif ;
+    font-size: 14px; 
+    display: none;
+}
+
+#side-menu ul {
+    background-color: #ac5f3e;
+}
+
+#dropdownMenuButton2 {
+    background-image: url(photos/backimg-foot.jpg);
+}
+
+#dropdownMenuButton2 img{
+    width: 70%;
+}
+
+
+
+#lema {
+    grid-column: 1/3;
+    font-family: 'Kurale', serif ;
+    text-align: right;
+    font-size: 21px; 
+    padding-right: 2%;
+    margin: 1%;
+}
+    
+
+main {
+    display: grid;
+    grid-template-rows: 0.5fr;
+}
+
+main h1 {
+    font-family:'Kurale', serif ;
+    font-size: 45px;
+    text-align: center;
+    padding: 1%;
+}
+
+
+main h3 {
+    display: block;
+    background-color: #217066;
+    font-family: 'Athiti', sans-serif;
+    font-size: 30px;
+    color: #ffffff;
+    text-align: left;
+    margin: 2% 1%;
+    width: 93vw;
+    padding-left: 2%;
+}
+
+
+main p {
+    width: 90vw;
+    font-family:'Athiti', sans-serif ;
+    font-size: 25px;
+    text-align: center;
+    padding: 0 2%;
+}
+
+main a  {
+    color: #2f8b7f;
+    text-decoration: none;
+}
+
+#lookbook {
+    background-color: #ebddd6;
+    width: 89vw;
+    margin: 0 5%;
+    margin-top: 2%;
+}
+
+.col-md-12 img {
+    position: static;
+    width: 14vw;
+}
+
+#fotos-abajo img{
+    position:static;
+    width: 14vw;
+    top: -95%;
+    z-index: -1;
+}
+
+
+@keyframes aparecer {
+    0% { opacity: 0%}
+    50% {opacity: 100%;}   
+    100% { opacity: 0%;}           
+}    
+
+.uno {
+    animation-name: aparecer;
+    animation-duration: 8s;
+    animation-iteration-count: infinite ;
+}
+
+.dos {
+    animation-name: aparecer;
+    animation-duration: 5s;
+    animation-iteration-count: infinite ;
+}
+
+.tres {
+    animation-name: aparecer;
+    animation-duration: 6s;
+    animation-iteration-count: infinite ;
+}
+
+
+
+#menu2 {
+    grid-column: 1/3;
+    margin: 10% ;
+    margin-top: 8%;
+}
+
+
+.contenedor1 {
+    box-sizing: content-box;
+    display: inline-block;
+    width: 17vw; 
+    background-image: url(photos/m2-conjuntos.jpg);
+    background-size: 16.3vw;
+    background-repeat: no-repeat;
+    background-position: 51% 49%;
+    padding: 3% 2%;
+}
+
+.foto1 {
+    width: 17vw;
+    padding: 3% 2% ;
+}
+
+.foto1:hover {
+   opacity: 0;    
+}
+
+.contenedor2 {
+    box-sizing: content-box;
+    display: inline-block;
+    width: 17vw;
+    padding: 7% 3% 12% 3%; 
+    background-image: url(photos/m2-medidas.jpg);
+    background-size: 16.3vw;
+    background-repeat: no-repeat;
+    background-position: 51% 50%;
+    padding: 3% 2%;
+}
+
+.foto2 {
+    width: 17vw;
+    padding: 3% 2%; 
+}
+
+.foto2:hover {
+   opacity: 0;    
+}
+
+.contenedor3 {
+    box-sizing: content-box;
+    display: inline-block;
+    width: 17vw;
+    padding: 7% 3% 12% 3%; 
+    background-image: url(photos/m2-novedades.jpg);
+    background-size: 16.3vw;
+    background-repeat: no-repeat;
+    background-position: 50% 49%;
+    padding: 3% 2%;
+}
+
+.foto3 {
+    width: 17vw;
+    padding: 3% 2%; 
+}
+
+.foto3:hover {
+   opacity: 0;    
+}
+
+.contenedor4 {
+    box-sizing: content-box;
+    display: inline-block;
+    width: 17vw;
+    padding: 7% 3% 12% 3%; 
+    background-image: url(photos/m2-encarganos.jpg);
+    background-size: 16.3vw;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    padding: 3% 2%;
+}
+
+.foto4 {
+    width: 17vw;
+    padding: 3% 2%; 
+}
+
+.foto4:hover {
+   opacity: 0;    
+}
+
+
+#ofrecemos {
+    grid-column: 1/3;
+}
+
+#ofrecemos ul li{
+    list-style-type: none;
+    font-family: 'Kurale', serif ;
+    font-size: 25px;
+    display: inline;;
+    padding-bottom: 7%;
+    margin: 4vw; 
+    margin-left: 7vw;
+}
+
+
+.atencion {
+    background-image: url(photos/atencion.png);
+    background-position:bottom;
+    background-repeat: no-repeat;
+    background-size: 31%; 
+}
+
+.quince {
+    background-image: url(photos/quince.png);
+    background-position:bottom;
+    background-repeat: no-repeat;
+    background-size: 38%;  
+}
+
+.aguja {
+    background-image: url(photos/aguja.png);
+    background-position:bottom;
+    background-repeat: no-repeat;
+    background-size: 35%;  
+}
+
+#fotoproducto {
+    display: flex; 
+    flex-wrap: wrap; 
+    margin: 0% 2%;   
+}
+
+#fotoproducto article {
+    width: 20vw;
+    padding: 3%;
+}
+
+#fotoproducto article img{
+    width: 13vw;
+}
+
+#fotoproducto article img:hover {
+    width: 20vw;
+    transition: width 0.5s linear;
+}
+
+#fotoproducto article h4 {
+    font-family: 'Athiti', sans-serif;
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    margin: 0;    
+}
+
+
+aside {
+    
+    font-family: 'Athiti', sans-serif;
+    font-size: 5px;
+    margin-top: 15%;
+}
+
+aside ul {
+    background-color: #e9d0c6;
+    font-size: 15px;
+}
+
+
+aside h4 {
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    text-align: center;
+    background-color: #c07152; 
+}
+
+aside p {
+    width: 95%;
+    font-size: 23px;
+    text-align: center;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+
+#novedades {
+    display: inline-block;
+    padding: 1% 5%;
+    box-sizing: content-box;
+    margin: 0;
+}
+
+
+#novedades img {
+    width: 300px;
+    display: inline-block;
+}
+
+#novedades h3 {
+    padding-left: 10% 10%;
+}
+
+#novedades p {
+    width: 30%;
+    padding: 0 5%;
+    border-color: black;
+    display: inline-block; 
+}
+
+
+
+#como-encargar ol li{
+    font-family: 'Athiti', sans-serif;
+    display: block;
+    width: 40vw;
+    font-size: 23px;
+    line-height: 30px;
+    padding:25px;
+
+}
+
+.produciendo {
+    width: 25vw;
+    display: inline-block;
+    padding-left: 50%;
+    position: absolute;
+    top: 80%;
+    box-sizing: unset;
+}
+
+
+     
+
+#formulario {
+    font-family: 'Athiti', sans-serif;
+    font-size: 19px;    
+    text-align: center;
+}
+
+#formulario legend {
+    background-color: #217066;
+    color: white;
+}
+
+#formulario fieldset {
+    display: inline-block;
+}
+
+.form-section {
+    margin: 5%;
+}
+
+#formulario p {
+    color: #217066;
+    font-family: 'Athiti', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 4%;
+}
+
+#formulario h4{
+    font-family: 'Athiti', sans-serif;
+    font-size: 25px;
+    text-decoration: underline;
+    display:block;
+}
+    
+
+#formulario select {
+    font-family: 'Athiti', sans-serif;
+    font-size: 18px;
+    margin: 1%;
+}
+
+#formulario input {
+    font-family: 'Athiti', sans-serif;
+    font-size: 18px;
+    margin: 1%;
+}
+
+#formulario textarea {
+    font-family: 'Athiti', sans-serif;
+    font-size: 15px;
+    width: 50vw;
+}
+
+
+#formas-de-envio{
+    font-family: 'Athiti', sans-serif;
+    font-size: 20px;
+    line-height: 200%;
+    padding-left: 1%;
+    width: 50%;
+}   
+
+
+#formas-de-envio th{
+    background-color: #c56b45;
+    text-align: center;
+}
+
+#formas-de-envio table td{
+    background-color: #ebc9bb;
+    text-align: center;
+    padding: 0 1%;
+}
+
+.envio2 {
+    display: none;
+}
+
+.listas-desordenadas ul li {
+    font-family: 'Athiti', sans-serif;
+    font-size: 20px;   
+    margin: 1% 3%;
+}
+
+
+footer {
+    background-image: url(photos/backimg-foot.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family:'Kurale', serif ;
+    color: whitesmoke;
+    font-size: 20px;
+    line-height: 0cm;
+    padding: 1%;
+    margin-top: 8%;
+}
+
+footer img {
+    width: 3%;
+    padding-bottom: 1%;
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 576px) {
+   
+    body {
+        grid-template-columns: 15% 85%;
+    }
+    
+
+    #menu {
+        display: none
+    }
+
+    header {
+        grid-column: 2;
+        grid-row: 1;
+    }    
+
+    header h1 {
+        font-size: 18px;
+    }
+
+    header img {
+        width: 55vw;
+        margin: 3%;
+    }
+    
+    main {
+        grid-column: 1/3;
+        grid-template-rows: 0.1fr  ;
+      
+    }
+
+    footer {
+        font-size: 15px;
+        grid-column: 1/3;
+        grid-row: 6;
+        display: block;
+    }
+
+    #side-menu {
+        display: grid;
+        grid-column: 1;
+        grid-row: 1;        
+    }
+
+    #side-menu ul {
+        list-style: none;
+        padding-left: 0;
+    }
+
+    .col-md-3 {
+        width: 50%;
+    }
+
+    main h1 {
+        font-family:'Kurale', serif ;
+        font-size: 30px;
+        text-align: center;
+        padding: 2%;
+    }
+
+    main h2 {
+        font-family:'Kurale', serif ;
+        font-size: 40px;
+        text-align: center;
+        padding: 2%;
+    }
+
+    main h3 {
+        font-size: 20px;
+        height: 4.5vh;
+    }
+
+
+    main p {
+        width: 90vw;
+        font-family:'Athiti', sans-serif ;
+        font-size: 19px;
+        text-align: center;
+    }
+
+    #lema {
+        font-size: 17px;
+        text-align: center;
+        height: 3.5vh;
+    }
+    
+     
+    .col-md-12 img {
+        width: 28%;
+        padding: 2%;
+    }
+
+    #fotos-abajo img {
+        width: 28%;
+    }
+
+    .col-md-3 img{
+        width: 150%;
+    }
+
+
+    #ofrecemos ul li {
+        display: inline-block;
+        width: 70%;
+        font-size: 17px;
+        padding: 5% 10%;
+        background-color: #d4b1a1;
+        background-size: 20%;
+        padding-bottom: 13%;
+        border-radius: 10%;
+    }
+
+    #fotoproducto main {
+        height: 100vh;
+    }
+
+    #fotoproducto article {
+        width: 30vw;
+        justify-content: center;
+    }
+    
+    #fotoproducto article img {
+        width: 25vw;
+    }
+    
+    #fotoproducto article h4 { 
+        font-size: 17px;   
+    }
+     
+   
+
+    aside p {
+        font-size: 20px;
+    }
+
+    #novedades p {
+        width: 80%;
+        font-size: 20px;
+        margin: 3%;
+
+    }
+
+    .produciendo {
+        display: block;
+        height: 15%;
+        width: 15%;
+    }
+    
+    #como-encargar img {
+        display: none;
+    }
+
+    #como-encargar ol li {
+        width: 90vw;
+        font-size: 20px;
+    } 
+
+    #formulario  {
+        padding: 1%;
+    }
+
+    #formulario p {
+        line-height: 120%;
+        font-size: 25px;   
+        margin-bottom: 7%; 
+    }
+
+    #formulario h4 {
+        background-color: #75c7bc;
+        margin: 10%;
+    }
+
+    #formulario ul {
+        margin: 16%;
+    }
+
+    #medios-de-pago {
+        width: 90%;
+    }
+
+    .table {    
+        display: none;
+    }
+    
+    .envio2 {
+        display: block;
+    }
+
+    .envio2 h2 {
+        font-size: 25px;
+    }
+}
