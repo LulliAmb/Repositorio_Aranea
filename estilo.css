@@ -11,7 +11,7 @@ body {
 
 
 header{  
-    background-image: url(photos/backimg.jpg);
+    background-image: url(Photos/backimg.jpg);
     background-size: cover;
     font-family:'Kurale', serif ;
     color: black;
@@ -60,7 +60,7 @@ header h1 {
 }
 
 #dropdownMenuButton2 {
-    background-image: url(photos/backimg-foot.jpg);
+    background-image: url(Photos/backimg-foot.jpg);
 }
 
 #dropdownMenuButton2 img{
@@ -175,7 +175,7 @@ main a  {
     box-sizing: content-box;
     display: inline-block;
     width: 17vw; 
-    background-image: url(photos/m2-conjuntos.jpg);
+    background-image: url(Photos/m2-conjuntos.jpg);
     background-size: 16.3vw;
     background-repeat: no-repeat;
     background-position: 51% 49%;
@@ -196,7 +196,7 @@ main a  {
     display: inline-block;
     width: 17vw;
     padding: 7% 3% 12% 3%; 
-    background-image: url(photos/m2-medidas.jpg);
+    background-image: url(Photos/m2-medidas.jpg);
     background-size: 16.3vw;
     background-repeat: no-repeat;
     background-position: 51% 50%;
@@ -217,7 +217,7 @@ main a  {
     display: inline-block;
     width: 17vw;
     padding: 7% 3% 12% 3%; 
-    background-image: url(photos/m2-novedades.jpg);
+    background-image: url(Photos/m2-novedades.jpg);
     background-size: 16.3vw;
     background-repeat: no-repeat;
     background-position: 50% 49%;
@@ -238,7 +238,7 @@ main a  {
     display: inline-block;
     width: 17vw;
     padding: 7% 3% 12% 3%; 
-    background-image: url(photos/m2-encarganos.jpg);
+    background-image: url(Photos/m2-encarganos.jpg);
     background-size: 16.3vw;
     background-repeat: no-repeat;
     background-position: 50% 50%;
@@ -271,21 +271,21 @@ main a  {
 
 
 .atencion {
-    background-image: url(photos/atencion.png);
+    background-image: url(Photos/atencion.png);
     background-position:bottom;
     background-repeat: no-repeat;
     background-size: 31%; 
 }
 
 .quince {
-    background-image: url(photos/quince.png);
+    background-image: url(Photos/quince.png);
     background-position:bottom;
     background-repeat: no-repeat;
     background-size: 38%;  
 }
 
 .aguja {
-    background-image: url(photos/aguja.png);
+    background-image: url(Photos/aguja.png);
     background-position:bottom;
     background-repeat: no-repeat;
     background-size: 35%;  
@@ -484,7 +484,7 @@ aside p {
 
 
 footer {
-    background-image: url(photos/backimg-foot.jpg);
+    background-image: url(Photos/backimg-foot.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: center;
