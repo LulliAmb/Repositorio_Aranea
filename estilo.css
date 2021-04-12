@@ -296,13 +296,11 @@ main a  {
     display: flex; 
     flex-wrap: wrap; 
     margin-left: 5%;  
-
 }
 
 #fotoproducto article {
     width: 20vw;
     padding: 3%;
-   
 }
 
 #fotoproducto article img{
