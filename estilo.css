@@ -292,14 +292,17 @@ main a  {
 }
 
 #fotoproducto {
+    box-sizing: content-box;
     display: flex; 
     flex-wrap: wrap; 
-    margin: 0% 2%;   
+    margin-left: 5%;  
+
 }
 
 #fotoproducto article {
     width: 20vw;
     padding: 3%;
+   
 }
 
 #fotoproducto article img{
@@ -307,8 +310,7 @@ main a  {
 }
 
 #fotoproducto article img:hover {
-    width: 20vw;
-    transition: width 0.5s linear;
+    transform: scale(2);
 }
 
 #fotoproducto article h4 {
@@ -395,8 +397,9 @@ aside p {
     box-sizing: unset;
 }
 
-
-     
+.produciendo2 {
+     display: none;
+}
 
 #formulario {
     font-family: 'Athiti', sans-serif;
@@ -507,6 +510,107 @@ footer img {
 
 
 
+@media only screen and (max-width: 1024px) {
+
+    #menu li {
+        font-size: 21px;
+    }
+
+    #lema {
+        font-size: 23px;
+    }
+
+    #lookbook {
+        width: 90vw;
+    }
+
+    .col-md-12 img {
+        width: 30%;
+        padding: 1%;
+        box-sizing: content-box;
+    }
+    
+     .col-md-3 {
+        width: 50%;
+    }
+
+    .col-md-3 img {
+        width: 160%;
+    }
+
+    #ofrecemos ul li {
+        display: block;
+        width: 70%;
+        font-size: 30px;
+        text-align: center;
+        background-color: #d4b1a1;
+        background-size: 15%;
+        border-radius: 10%;
+        padding: 2% 10% 12% 10%;
+    }
+    
+
+    #fotoproducto article {
+        display: inline;
+        width: 30%;
+        margin: 10% 17% 10% 1%;
+    }
+
+    #fotoproducto article img {
+        width: 40vw;
+        padding: 0;
+    }
+
+    #fotoproducto article img:hover{
+        transform: scale(1.3);
+    }
+
+    .col-md-6 {
+        width: 85vw;
+        margin: 1% 5%;
+    }
+
+    .listas-desordenadas ul li{
+        font-size: 25px;
+    }
+
+    #novedades {
+        padding: 3%;
+    }
+
+    #novedades p {
+        width: 50%;
+    }
+
+    .produciendo {
+        display: block;
+        width: 25vw;
+        padding-left: 50%;
+        position: absolute;
+        top: 90%;
+    }
+        
+    .produciendo2{
+        display: block;
+        width: 25vw;
+        padding-left: 50%;
+        position: relative;
+        top: 215%;
+    }
+}  
+
+
+.table {
+    width: 90vw;
+    margin: 5%;
+}
+
+
+
+
+
+
+
 @media only screen and (max-width: 576px) {
    
     body {
@@ -525,11 +629,13 @@ footer img {
 
     header h1 {
         font-size: 18px;
+        color: #f7f7f7e8;
+        padding-left: 35%;
     }
 
     header img {
         width: 55vw;
-        margin: 3%;
+        margin-top: 8%; 
     }
     
     main {
@@ -543,6 +649,7 @@ footer img {
         grid-column: 1/3;
         grid-row: 6;
         display: block;
+        padding-top: 3%;
     }
 
     #side-menu {
@@ -590,21 +697,20 @@ footer img {
     #lema {
         font-size: 17px;
         text-align: center;
-        height: 3.5vh;
+        height: 7vh;
+        margin: 3%;
     }
     
      
     .col-md-12 img {
-        width: 28%;
-        padding: 2%;
+        width: 30%;
+        padding: 1%;
+        box-sizing: content-box;
     }
 
-    #fotos-abajo img {
-        width: 28%;
-    }
 
     .col-md-3 img{
-        width: 150%;
+        width: 200%;
     }
 
 
@@ -612,41 +718,41 @@ footer img {
         display: inline-block;
         width: 70%;
         font-size: 17px;
-        padding: 5% 10%;
+        padding: 5% 9%;
         background-color: #d4b1a1;
-        background-size: 20%;
+        background-size: 18%;
         padding-bottom: 13%;
         border-radius: 10%;
     }
 
-    #fotoproducto main {
-        height: 100vh;
-    }
 
     #fotoproducto article {
-        width: 30vw;
-        justify-content: center;
+        box-sizing: content-box;
+        width: 40vw;
+        padding: 15%;
     }
     
     #fotoproducto article img {
-        width: 25vw;
+        width: 60vw;
+    }
+    
+    #fotoproducto article img:hover{
+        transform: scale(1.5);
     }
     
     #fotoproducto article h4 { 
-        font-size: 17px;   
+        font-size: 25px;   
     }
-     
    
-
     aside p {
         font-size: 20px;
     }
 
+ 
     #novedades p {
-        width: 80%;
+        width: 95%;
         font-size: 20px;
         margin: 3%;
-
     }
 
     .produciendo {
@@ -687,6 +793,10 @@ footer img {
         width: 90%;
     }
 
+    #medios-de-pago ul li{
+        font-size: 20px;
+    }
+
     .table {    
         display: none;
     }
@@ -698,4 +808,11 @@ footer img {
     .envio2 h2 {
         font-size: 25px;
     }
+
 }
+
+
+
+
+ 
+
