@@ -331,7 +331,17 @@ aside {
             line-height: 30px;
             padding:25px;
         }
+            .final-p {
+                width: 60%;
+                font-size: 33px;
+                text-decoration: underline;
+                margin-left: 33%;
+                padding: 1%;
+                margin-bottom: 5%;
+            }
 }   }
+
+
 
 .produciendo {
     width: 25vw;
@@ -397,12 +407,14 @@ aside {
 
 
 #formas-de-envio{
+    justify-self: center;
     font-family: $titulos;
     font-size: 20px;
     line-height: 200%;
     padding-left: 1%;
-    width: 50%;
+    width: 50vw;
         th{
+            vertical-align:middle;
             background-color: $img-header;
             text-align: center;
         }
@@ -439,9 +451,14 @@ footer {
     padding: 1%;
     margin-top: 8%;
         img {
-            width: 3%;
+            width: 4%;
             padding-bottom: 1%;
         }
+
+.p2 {
+    font-size: 13px;
+    margin-top: 2%;
+}
 }
 
 
@@ -454,6 +471,7 @@ footer {
 
 @media only screen and (max-width: 1024px) {
 
+
     #menu li {
         font-size: 21px;
     }
@@ -464,7 +482,9 @@ footer {
 
     #lookbook {
         width: 90vw;
+        margin: 5%;
     }
+
 
     .col-md-12 img {
         width: 30%;
@@ -474,11 +494,13 @@ footer {
     
     .col-md-3 {
         width: 50%;
+        padding-left: 9%;
+        img {
+            width: 160%;
+        }
     }
 
-    .col-md-3 img {
-        width: 160%;
-    }
+    
 
     #ofrecemos ul li {
         display: block;
@@ -538,7 +560,7 @@ footer {
         display: block;
         position: absolute;
         width: 35vw;
-        top: 130%;
+        top: 125%;
         left: 50%;
     }
 
@@ -546,18 +568,31 @@ footer {
         display: block;
         position: absolute;
         width: 35vw;
-        top: 210%;
+        top: 200%;
         left: 50%;
     }
 
-    .table {
+    #como-encargar ol .final-p {
         width: 90vw;
-        margin: 5%;
+        font-size: 30px;
+        margin-left: 2%;
     }
-}  
 
+    #formas-de-envio {
+        justify-self:flex-start;
+        margin: 3%;
+            .table {
+             width: 90vw;
+            }
+    }
 
-    
+    footer img {
+        width: 7%;
+        margin-bottom: 2%;
+    }
+
+}
+
 
 
 
@@ -597,11 +632,19 @@ footer {
     }
 
     footer {
-        font-size: 15px;
+        font-size: 17px;
         grid-column: 1/3;
         grid-row: 6;
         display: block;
         padding-top: 3%;
+            img {
+                width: 9%;
+                margin-bottom: 2%;
+            }
+    }
+
+    footer .p2 {
+        font-size: 13px;
     }
 
     #side-menu {
@@ -722,7 +765,7 @@ footer {
                 margin-bottom: 7%; 
             }
             h4 {
-                background-color: #75c7bc;
+                background-color:$celeste-claro;
                 margin: 10%;
             }
             ul {

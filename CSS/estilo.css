@@ -289,6 +289,14 @@ aside {
   line-height: 30px;
   padding: 25px; }
 
+#como-encargar ol .final-p {
+  width: 60%;
+  font-size: 33px;
+  text-decoration: underline;
+  margin-left: 33%;
+  padding: 1%;
+  margin-bottom: 5%; }
+
 .produciendo {
   width: 25vw;
   display: inline-block;
@@ -340,12 +348,14 @@ aside {
   margin: 5%; }
 
 #formas-de-envio {
+  justify-self: center;
   font-family: "Athiti", sans-serif;
   font-size: 20px;
   line-height: 200%;
   padding-left: 1%;
-  width: 50%; }
+  width: 50vw; }
   #formas-de-envio th {
+    vertical-align: middle;
     background-color: #ac5f3e;
     text-align: center; }
   #formas-de-envio table td {
@@ -373,8 +383,11 @@ footer {
   padding: 1%;
   margin-top: 8%; }
   footer img {
-    width: 3%;
+    width: 4%;
     padding-bottom: 1%; }
+  footer .p2 {
+    font-size: 13px;
+    margin-top: 2%; }
 
 @media only screen and (max-width: 1024px) {
   #menu li {
@@ -382,15 +395,17 @@ footer {
   #lema {
     font-size: 23px; }
   #lookbook {
-    width: 90vw; }
+    width: 90vw;
+    margin: 5%; }
   .col-md-12 img {
     width: 30%;
     padding: 1%;
     box-sizing: content-box; }
   .col-md-3 {
-    width: 50%; }
-  .col-md-3 img {
-    width: 160%; }
+    width: 50%;
+    padding-left: 9%; }
+    .col-md-3 img {
+      width: 160%; }
   #ofrecemos ul li {
     display: block;
     width: 70%;
@@ -432,17 +447,26 @@ footer {
     display: block;
     position: absolute;
     width: 35vw;
-    top: 130%;
+    top: 125%;
     left: 50%; }
   .produciendo3 {
     display: block;
     position: absolute;
     width: 35vw;
-    top: 210%;
+    top: 200%;
     left: 50%; }
-  .table {
+  #como-encargar ol .final-p {
     width: 90vw;
-    margin: 5%; } }
+    font-size: 30px;
+    margin-left: 2%; }
+  #formas-de-envio {
+    justify-self: flex-start;
+    margin: 3%; }
+    #formas-de-envio .table {
+      width: 90vw; }
+  footer img {
+    width: 7%;
+    margin-bottom: 2%; } }
 
 @media only screen and (max-width: 576px) {
   body {
@@ -463,11 +487,16 @@ footer {
     grid-column: 1/3;
     grid-template-rows: 0.1fr; }
   footer {
-    font-size: 15px;
+    font-size: 17px;
     grid-column: 1/3;
     grid-row: 6;
     display: block;
     padding-top: 3%; }
+    footer img {
+      width: 9%;
+      margin-bottom: 2%; }
+  footer .p2 {
+    font-size: 13px; }
   #side-menu {
     display: grid;
     grid-column: 1;
